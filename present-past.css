@@ -347,7 +347,7 @@ th, td {
   }
 
 }
-@media (max-width: 768px) {
+@media (max-width: 932px) {
   body {
     background-image: none;
     background-color: #fbe3e2; /* Keep your soft pink background */

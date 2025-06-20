@@ -347,3 +347,9 @@ th, td {
   }
 
 }
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #fbe3e2 !important;
+    background-blend-mode: lighten !important;
+  }
+}

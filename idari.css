@@ -1,0 +1,23 @@
+body {
+  background-color: #181818;
+  color: whitesmoke;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 100px;
+}
+
+.title {
+  font-size: 40px;
+}
+
+a {
+  color: whitesmoke;
+  text-decoration: none;
+  font: inherit;
+  cursor: pointer;
+}

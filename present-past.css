@@ -1,0 +1,349 @@
+body {
+  background-color: #fbe3e2;
+  color: #E75480;
+  font-family: 'kindegarten', sans-serif;
+  background-image: url('pink-clouds.jpg');
+  background-size: 1500px;
+  background-blend-mode: lighten;
+}
+
+p, h1 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  padding: 50px 0px 0px 50px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+}
+
+p a {
+  color: #C2185B;
+  text-decoration: none;
+  font: inherit;
+  cursor: pointer;
+}
+
+.firstline {
+  margin-top: 5rem;
+  margin-left: 19rem;
+}
+
+.secondline {
+  margin-left: 19rem;
+  margin-bottom: 4rem;
+}
+
+ul {
+  margin-left: 18rem;
+}
+
+.bold {
+  font-weight: 900;
+  color: #C2185B;
+}
+
+.boldbig {
+  font-size: 22px;
+  font-weight: 900;
+  color: #C2185B;
+}
+
+.littletext{
+  font-size: 15px;
+  line-height: 1.5;
+  color: #181818;
+  margin-left: 16rem;
+  margin-top: 0;
+  padding-top: 30px;
+}
+
+.littletext2{
+  font-size: 15px;
+  line-height: 2;
+  color: #181818;
+  margin-left: 16rem;
+  margin-top: 0;
+  padding-top: 10px;
+}
+
+.littletext3{
+  font-size: 15px;
+  line-height: 2;
+  color: #181818;
+  margin-left: 16rem;
+  margin-top: 0;
+  padding-top: 0px;
+}
+
+.arabicbold {
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.newtitle {
+  color: #C2185B;
+  text-align: left;
+  font-size: 27px;
+  margin: 0px 0px 0px 0px;
+  line-height: 1;
+  margin-left: 16rem;
+  padding-top: 5rem;
+}
+
+.past-tense-title{
+  padding-top: 2.5rem;
+}
+
+.newtitle2 {
+  color: #C2185B;
+  text-align: left;
+  font-size: 20px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-left: 16rem;
+  padding-top: 20px;
+  padding-bottom: 0;
+}
+
+caption {
+  color: #C2185B;
+  text-align: left;
+  font-size: 27px;
+  margin: 0px 0px 15px 0px;
+  line-height: 1;
+}
+
+.undercaption {
+  font-size: 15px;
+  line-height: 1;
+  color: #181818;
+}
+
+table {
+  width: 800px;
+  background-color: whitesmoke;
+  color:  #181818;
+  margin: 50px auto;
+  margin-bottom: 0;
+}
+
+th{
+  background-color: #C2185B;
+  color: whitesmoke;
+}
+
+td {
+  text-align: center;
+}
+
+table, th, td {
+  border: 3px solid #181818;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+}
+
+.col1 {
+  width: 30%;
+}
+
+.col2 {
+  width: 40%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.col3 {
+  width: 30%;
+  font-size: 20px;
+}
+
+.prefix,
+.suffix  {
+  color: #E75480;
+}
+
+/* === Quiz Styles === */
+
+.highlight {
+  color: whitesmoke;
+}
+
+#startScreen {
+  text-align: center;
+}
+
+#startBtn {
+  font-family: 'kindegarten', sans-serif;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background: #E75480; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#startBtn:hover {
+  background: #D9436F;
+}
+
+.quiz-container {
+  background: #FF8FA3;
+  padding: 2rem;
+  border-radius: 10px;
+  border: 3px solid #E75480;
+  max-width: 600px;
+  margin: 5rem auto;
+}
+
+.quiz-container h2 {
+  font-size: 25px;
+  text-align: center;
+  color: white;
+}
+
+.question {
+  font-size: 20px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #C2185B;
+}
+
+.option {
+  background: #e9ecef;
+  color: #C2185B;
+  font-size: 25px;
+  text-align: right;
+  padding: 0.75rem;
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.option:hover {
+  background: #dee2e6;
+}
+
+.correct {
+  background-color: #FFB6C1 !important;
+}
+
+.incorrect {
+  background-color: #D18CA0 !important;
+}
+
+.feedback {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.next-btn {
+  font-family: 'kindegarten', sans-serif;
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  background: #E75480;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: none;
+}
+
+.next-btn:hover {
+  background: #D9436F;
+}
+
+.option.correct::after {
+  content: " ✓";
+  color: #C2185B; /* nice pink */
+  font-weight: bold;
+  margin-left: 8px;
+}
+
+.option.incorrect::after {
+  content: " ✗";
+  color: #C2185B; /* softer pink */
+  font-weight: bold;
+  margin-left: 8px;
+}
+
+/* === Responsive Layout for Smaller Screens === */
+@media (max-width: 768px) {
+
+  body {
+    background-size: cover;
+    padding: 1rem;
+  }
+
+  h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+
+  p {
+    padding: 1rem;
+  }
+
+  .firstline,
+  .secondline,
+  .littletext,
+  .littletext2,
+  .littletext3,
+  .newtitle,
+  .newtitle2,
+  ul {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .newtitle {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  .newtitle2 {
+    font-size: 18px;
+    padding-top: 10px;
+    line-height: 1.5;
+    text-align: left;
+  }
+
+  .boldbig {
+    font-size: 18px;
+  }
+
+  table {
+    width: 100%;
+    font-size: 14px;
+    margin: 1rem auto;
+  }
+
+  .col2, .col3 {
+    font-size: 16px;
+  }
+
+  .quiz-container {
+    padding: 1rem;
+    margin: 2rem 1rem;
+  }
+
+  .option {
+    font-size: 20px;
+  }
+
+  .quiz-container h2 {
+    font-size: 20px;
+  }
+
+}

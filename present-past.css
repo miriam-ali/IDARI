@@ -277,11 +277,13 @@ th, td {
 }
 
 /* === Responsive Layout for Smaller Screens === */
-@media (max-width: 768px) {
+@media (max-width: 932px) {
 
   body {
     background-size: cover;
     padding: 1rem;
+    background-image: none !important;
+    background-color: #fbe3e2 !important;
   }
 
   h1 {
@@ -346,10 +348,4 @@ th, td {
     font-size: 20px;
   }
 
-}
-@media (max-width: 932px) {
-  body {
-    background-image: none;
-    background-color: #fbe3e2; /* Keep your soft pink background */
-  }
 }

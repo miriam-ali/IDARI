@@ -347,9 +347,9 @@ th, td {
   }
 
 }
-@media (prefers-color-scheme: dark) {
+@media (max-width: 768px) {
   body {
-    background-color: #fbe3e2 !important;
-    background-blend-mode: lighten !important;
+    background-image: none;
+    background-color: #fbe3e2; /* Keep your soft pink background */
   }
 }

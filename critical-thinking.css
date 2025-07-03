@@ -1,0 +1,125 @@
+body {
+  background-color: #181818;
+  color: whitesmoke;
+  font-family: 'Poppins', sans-serif;
+}
+
+p, h1 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  padding: 50px 0px 0px 50px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+}
+
+.buttonrow {
+  display: flex;
+  justify-content: center;
+  gap: 20px; 
+  margin-top: 50px; 
+}
+
+.buttoncontainer,
+.buttoncontainer2 {
+  background-color: whitesmoke;
+  color: #181818;
+  display: inline-block;
+  border: 1px solid transparent;
+}
+
+.buttoncontainer a,
+.buttoncontainer2 a {
+  padding: 9px 19px;
+  display: inline-block;
+}
+
+.buttoncontainer:hover,
+.buttoncontainer2:hover {
+  background-color: #181818;
+  border-color: whitesmoke;
+}
+
+.buttoncontainer:hover a,
+.buttoncontainer2:hover a {
+  color: whitesmoke;
+}     
+
+p a {
+  color: whitesmoke;
+  text-decoration: none;
+  font: inherit;
+  cursor: pointer;
+}
+
+a {
+  color: #181818;
+  text-decoration: none;
+  font: inherit;
+  cursor: pointer;
+  padding: 9px 19px;
+}
+
+.undertext {
+    text-align: left;
+    padding: 50px 20px 0px;  /* adds space on left and right */
+    max-width: 900px; /* optional: limits width */
+    margin: 0 auto;   /* centers the block if max-width is set */
+}
+
+h2 {
+    text-align: left;
+    padding: 50px 20px 10px 0px;  /* adds space on left and right */
+    max-width: 900px; /* optional: limits width */
+    margin: 0 auto;   /* centers the block if max-width is set */
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul > li {
+    text-align: left;
+    padding: 0px 0px 0px 0px;  /* adds space on left and right */
+    max-width: 900px; /* optional: limits width */
+    margin: 0 auto;   /* centers the block if max-width is set */
+    transform: translateX(10px);
+}
+
+.undertext3 {
+    text-align: left;
+    padding: 15px 20px 15px;  
+    max-width: 900px; 
+    margin: 20px auto 0px;
+    border: solid 1px whitesmoke;   
+}
+
+.undertext4 {
+    text-align: left;
+    padding: 15px 20px 15px;  
+    max-width: 900px; 
+    margin: 10px auto 0px;
+    border: solid 1px whitesmoke;   
+}
+
+.undertext5 {
+    text-align: left;
+    padding: 15px 20px 0px;  /* adds space on left and right */
+    max-width: 900px; /* optional: limits width */
+    margin: 0 auto; 
+   
+}
+
+.undertext6 {
+    text-align: left;
+    padding: 15px 20px 50px;  /* adds space on left and right */
+    max-width: 900px; /* optional: limits width */
+    margin: 0 auto; 
+   line-height: 2;
+}

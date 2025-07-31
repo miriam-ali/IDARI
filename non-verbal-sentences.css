@@ -1,0 +1,200 @@
+body {
+  background-color: #181818;
+  color: whitesmoke;
+  font-family: 'Poppins', sans-serif;
+}
+
+p, h1 {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.return-btn {
+    display: inline-block;
+    margin-top: 5vh; 
+    font-size: clamp(14px, 2vw, 16px);
+    
+}
+
+h1 {
+  text-align: center;
+  white-space: nowrap;          /* keep on one line */
+  font-size: clamp(12px, 8vw, 60px);  /* min 12px, max 60px, scales with viewport */
+}
+
+.buttonrow {
+  display: flex;
+  justify-content: center;
+  gap: 20px; 
+  margin-top: 50px; 
+}
+
+.buttoncontainer,
+.buttoncontainer2 {
+  background-color: whitesmoke;
+  color: #181818;
+  display: inline-block;
+  border: 1px solid transparent;
+}
+
+.buttoncontainer a,
+.buttoncontainer2 a {
+  padding: 9px 19px;
+  display: inline-block;
+}
+
+.buttoncontainer:hover,
+.buttoncontainer2:hover {
+  background-color: #181818;
+  border-color: whitesmoke;
+}
+
+.buttoncontainer:hover a,
+.buttoncontainer2:hover a {
+  color: whitesmoke;
+}     
+
+p a {
+  color: whitesmoke;
+  text-decoration: none;
+  font: inherit;
+  cursor: pointer;
+}
+
+a {
+  color: #181818;
+  text-decoration: none;
+  font: inherit;
+  cursor: pointer;
+  padding: 9px 19px;
+}
+
+.undertext {
+    text-align: left;
+    padding: 50px 20px 0 20px;  /* top 50px, left/right 20px, bottom 0 */
+    max-width: 850px;
+    margin: 0 auto;
+    box-sizing: border-box; /* recommended */
+    font-size: clamp(14px, 2vw, 16px);
+}
+
+.undertext2 {
+    text-align: left;
+    padding: 10px 20px 0 20px;  /* top 10px, left/right 50px, bottom 0 */
+    max-width: 850px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-size: clamp(14px, 2vw, 16px);
+}
+
+.undertext3 {
+    text-align: left;
+    padding: 10px 20px 0 20px;  /* top 10px, left/right 20px, bottom 0 */
+    max-width: 850px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-size: clamp(14px, 2vw, 16px);
+}
+
+
+h2 {
+    text-align: left;
+    padding: 50px 20px 10px 0px;  /* adds space on left and right */
+    max-width: 900px; /* optional: limits width */
+    margin: 0 auto;   /* centers the block if max-width is set */
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul > li {
+    text-align: left;
+    padding: 0px;  /* adds space on left and right */
+    max-width: 900px; /* optional: limits width */
+    margin: 0 auto;   /* centers the block if max-width is set */
+}
+
+
+.undertext4 {
+    text-align: left;
+    padding: 20px 20px;  
+    max-width: 900px; 
+    margin: 50px auto 0;
+    border: 1px solid whitesmoke;   
+}
+
+.vocab-title {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.vocab-items {
+    display: flex;
+    justify-content: center;
+    gap: 40%;
+}
+
+td.arabic {
+  text-align: right;
+  white-space: nowrap;  /* Prevent Arabic from breaking into multiple lines */
+  
+}
+
+td.english {
+  padding-right: 10%;/* Adjust as needed */
+  word-wrap: break-word; /* Allow English text to wrap */
+}
+
+table {
+  width: 100%;
+  max-width: 700px;
+  margin: 20px auto 0 auto;
+  border: solid whitesmoke;
+  padding: 20px 40px;
+  box-sizing: border-box;
+  font-size: clamp(14px, 2vw, 16px);
+}
+
+ul, ol {
+  list-style-type: none;  /* removes bullets or numbers */
+  padding-left: 0;        /* removes default left padding */
+  margin-left: 0;         /* optional: removes left margin */
+}
+
+.undertext22 {
+    text-align: left;
+    padding: 5px 20px 0 20px;  /* top 50px, left/right 20px, bottom 0 */
+    max-width: 850px;
+    margin: 0 auto;
+    box-sizing: border-box; /* recommended */
+    font-size: clamp(14px, 2vw, 16px);
+}
+
+.underline {
+  background-color: #65e4cc;
+  padding-left: 3px;
+  padding-right: 3px;
+  color: #181818;
+}
+
+.underline2 {
+  background-color: #65e4cc;
+  margin-left: 2px;
+  margin-right: 2px;
+  padding-left: 1px;
+  padding-right: 1px;
+  color: #181818;
+}
+
+.english-arabic-span {
+  text-align: center;
+}
+
+.english-arabic-span2 {
+  text-align: center;
+  padding-top: 10px;
+}

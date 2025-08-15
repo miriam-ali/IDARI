@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Quiz</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <h1 id="quiz-heading">Health + Society Quiz</h1>
+
+  <div id="quiz-content">
+    <div class="top-actions">
+      <button id="change-quiz-button" class="change-quiz-btn btn-icon">Switch Quiz</button>
+      <button id="restart-button" class="action-button restart-button btn-icon">Reset</button>
+      <button id="review-button" class="action-button review-button btn-icon">Review Incorrect</button>
+    </div>
+
+    <!-- Timer -->
+    <div class="timer-container" id="quiz-timer" style="display: none;">
+      <div class="timer-display">
+        <span id="time-remaining">00:00</span>
+      </div>
+    </div>
+
+    <!-- Scores -->
+    <div class="score-container">
+      <div class="score correct-score">Correct: <span id="correct-count">0</span></div>
+      <div class="score skipped-score">Skipped: <span id="skipped-count">0</span></div>
+      <div class="score">Total Answered: <span id="total-answered">0</span>/<span id="total-questions">0</span></div>
+      <div class="score incorrect-score">Incorrect: <span id="incorrect-count">0</span></div>
+    </div>
+
+    <!-- Question Progress -->
+    <div class="progress">Question <span id="current-question">1</span> of <span id="question-count">0</span></div>
+
+    <!-- Quiz Question and Options -->
+    <div id="quiz-container" class="quiz-container">
+      <div class="question" id="question"></div>
+      <div class="options" id="options-container"></div>
+      <div id="feedback" class="result" style="display: none;"></div>
+    </div>
+
+    <!-- Navigation Buttons -->
+    <div class="navigation">
+      <button id="prev-button" class="nav-button btn-icon" disabled>Previous</button>
+      <button id="skip-button" class="nav-button skip-button btn-icon">Skip</button>
+      
+      <button id="next-button" class="nav-button btn-icon" disabled>Next</button>
+    </div>
+  </div>
+
+  <!-- Quiz Completion Modal -->
+  <div id="congratulations-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-modal" id="close-modal-btn">&times;</span>
+      <h2>Quiz Complete! 🎉</h2>
+      <p>You've finished the quiz!</p>
+      <div class="score-details">
+        <div class="score-box correct-score-box">Correct<br><span id="final-correct">0</span></div>
+        <div class="score-box incorrect-score-box">Incorrect<br><span id="final-incorrect">0</span></div>
+        <div class="score-box skipped-score-box">Skipped<br><span id="final-skipped">0</span></div>
+      </div>
+      <p id="performance-message">Well done!</p>
+      <button class="restart-quiz-btn btn-icon" id="restart-quiz-btn">Start New Attempt</button>
+    </div>
+  </div>
+
+  <!-- Optional Fireworks -->
+  <div class="pyro" id="fireworks" style="display: none;">
+    <div class="before"></div>
+    <div class="after"></div>
+  </div>
+
+  <script src="script2.js"></script>
+</body>
+</html>
+
+        

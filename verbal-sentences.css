@@ -166,6 +166,7 @@ table {
   box-sizing: border-box;
   font-size: clamp(14px, 2vw, 16px);
   border-collapse: collapse;
+  table-layout: fixed;
 }
 
 td, th {

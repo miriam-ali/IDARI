@@ -98,6 +98,14 @@ a {
     font-size: clamp(14px, 2vw, 16px);
 }
 
+.undertext3-5 {
+    text-align: left;
+    padding: 10px 20px 100px 20px;  /* top 10px, left/right 20px, bottom 0 */
+    max-width: 850px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-size: clamp(14px, 2vw, 16px);
+}
 
 h2 {
     text-align: left;

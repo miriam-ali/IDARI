@@ -165,6 +165,14 @@ table {
   padding: 20px 40px;
   box-sizing: border-box;
   font-size: clamp(14px, 2vw, 16px);
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+td, th {
+  border: 1px solid whitesmoke; /* adds lines between all rows and columns */
+  padding: 10px 20px; /* adds spacing inside each cell */
+  text-align: center;
 }
 
 ul, ol {
@@ -196,6 +204,7 @@ ul, ol {
   padding-left: 1px;
   padding-right: 1px;
   color: #181818;
+  font-weight: bold;
 }
 
 .english-arabic-span {
@@ -205,4 +214,14 @@ ul, ol {
 .english-arabic-span2 {
   text-align: center;
   padding-top: 10px;
+}
+
+.prefix,
+.suffix  {
+  background-color: #65e4cc;
+  margin-left: 2px;
+  margin-right: 2px;
+  padding-left: 1px;
+  padding-right: 1px;
+  color: #181818;
 }

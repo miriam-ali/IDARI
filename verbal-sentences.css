@@ -89,6 +89,15 @@ a {
     font-size: clamp(14px, 2vw, 16px);
 }
 
+.undertext2-5 {
+    text-align: left;
+    padding: 20px 20px 0 20px;  /* top 10px, left/right 50px, bottom 0 */
+    max-width: 850px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-size: clamp(14px, 2vw, 16px);
+}
+
 .undertext3 {
     text-align: left;
     padding: 10px 20px 0 20px;  /* top 10px, left/right 20px, bottom 0 */
@@ -126,6 +135,14 @@ ul > li {
     margin: 0 auto;   /* centers the block if max-width is set */
 }
 
+.undertext3-5 {
+    text-align: left;
+    padding: 10px 20px 100px 20px;  /* top 10px, left/right 20px, bottom 0 */
+    max-width: 850px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-size: clamp(14px, 2vw, 16px);
+}
 
 .undertext4 {
     text-align: left;

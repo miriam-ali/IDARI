@@ -206,3 +206,12 @@ ul, ol {
   text-align: center;
   padding-top: 10px;
 }
+
+.link {
+    text-decoration: underline;
+    padding: 0;
+}
+
+.link:hover {
+    color: #65e4cc;     
+}
